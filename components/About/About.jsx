@@ -11,14 +11,13 @@ export const About = () => {
             <DownArrow />
             <Title text="Sobre" highlight="Mí" />
             <p className={style.text}>
-              Me llamo David Mario Licla nací en la ciudad del eterno sol ☀
-              llamada Ica en Perú.
+              Mi nombre es Ramon B. Aguado Apaza, soy un apasionado por el Back End y mi inspiracion es el Front End.
               <br />
               <br />
-              Me fascina el mundo del desarrollo web, sobre todo el Front End.
-              Disfruto mucho del proceso creativo de crear interfaces, así como
-              también me encanta estar en constante aprendizaje y compartir lo
-              que aprendo.
+              Me encanta el mundo del desarrollo de aplicaciones y por sobretodo resolver problemas.
+              Encuentro muy satisfactorio el proceso logico que desarrollo para encontrar la solucion y su resultado. 
+              Ademas soy impulsador de la presentacion de varias ideas antes de plantear soluciones y casi siempre busco la opinion
+              de terceros ya que nadie es dueño de la verdad.
             </p>
           </div>
           <div className={style.stack}>

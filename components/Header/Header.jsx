@@ -14,7 +14,7 @@ export const Header = () => {
         <div className={style.content}>
           <div className={style.navigation}>
             <a className={style.logo} href="#">
-              [David]
+              [Ramon]
             </a>
             <Menu />
             <div>

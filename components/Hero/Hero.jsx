@@ -8,7 +8,7 @@ import Target from "../../public/target.svg";
 
 export const Hero = () => {
   return (
-    <main className={style.hero} aria-label="Hero David Mario Licla">
+    <main className={style.hero} aria-label="Hero RamonB44">
       <Wrapper>
         <div className={style.content}>
           <div className={style.wrapperPhoto}>
@@ -26,22 +26,22 @@ export const Hero = () => {
 
             <Image
               src={Perfil}
-              alt="David Mario Licla"
-              title="David Mario Licla"
+              alt="RamonB44"
+              title="RamonB44"
             />
           </div>
 
           <div className={style.information}>
             <Rocket />
-            <p className={style.name}>David Licla</p>
+            <p className={style.name}>Ramon Aguado</p>
             <h1 className={style.title}>
-              <strong className={style.highlightBlue}>Front End</strong>{" "}
+              <strong className={style.highlightBlue}>Back End</strong>{" "}
               Engineer
             </h1>
             <p className={style.description}>
-              Ser Front End es increíble. No solo creamos interfaces hermosas
-              también creamos experiencias que hacen la vida de las personas más
-              fácil.
+              Siempre me he identificado por trabajar en equipo, brindando mi apoyo e ideas.
+              Ademas mis habilidades y mi diligencia son la mejor combinacion en tu equipo.
+              Estare muy contento de escuchar tu propuesta.
             </p>
             <a className={style.button} href="#contact">
               Contactate conmigo

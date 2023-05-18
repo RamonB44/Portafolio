@@ -1,25 +1,27 @@
+import useSWR from 'swr';
 import Head from "next/head";
 import { Header, Hero, About, Projects, Contact, Footer } from "../components";
 
 export default function Home({ projects }) {
+
   return (
     <>
       <Head>
-        <title>David Mario Licla</title>
+        <title>Ramon B. Aguado Apaza</title>
         <meta
           name="description"
-          content="Portafolio y web personal de DavidMarioLC"
+          content="Portafolio y web personal de RamonB44"
         />
         <link rel="icon" href="/favicon.ico" />
         {/* open graph */}
         <meta
           property="og:title"
-          content="Portafolio y Web Personal de DavidMarioLC"
+          content="Portafolio y Web Personal de RamonB44"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://portafolio-davidmariolc.vercel.app/"
+          content="https://portafolio.ramonb44.dev/"
         />
         <meta
           property="og:image"
@@ -27,7 +29,7 @@ export default function Home({ projects }) {
         />
         <meta
           property="og:description"
-          content="Front End Engineer, Entusiasta de Javascript y amante de CSS y React"
+          content="Back End Engineer, Autodidacta y Amante de la tecnologia."
         />
       </Head>
       <Header />
