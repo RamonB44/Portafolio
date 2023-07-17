@@ -12,7 +12,7 @@ import logoFirebase from "../../public/stack/firebase.svg";
 import logoNext from "../../public/stack/next.svg";
 import logoTesting from "../../public/stack/testing.svg";
 import logoTailWindCSS from "../../public/stack/tailwindcss.svg";
-
+// Tecnologias que use en cada proyecto
 const getIcon = (value) => {
   const tech = {
     HTML: logoHTML,

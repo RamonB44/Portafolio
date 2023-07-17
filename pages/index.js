@@ -23,13 +23,13 @@ export default function Home({ projects }) {
           property="og:url"
           content="https://portafolio.ramonb44.dev/"
         />
-        <meta
+        {/* <meta
           property="og:image"
           content="https://raw.githubusercontent.com/DavidMarioLC/Portafolio/main/opengraph.webp"
-        />
+        /> */}
         <meta
           property="og:description"
-          content="Back End Engineer, Autodidacta y Amante de la tecnologia."
+          content="Back End Developer, Autodidacta y Amante de la tecnologia."
         />
       </Head>
       <Header />

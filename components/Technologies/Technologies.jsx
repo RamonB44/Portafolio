@@ -2,38 +2,41 @@ import React from "react";
 import Image from "next/image";
 import style from "./Technologies.module.css";
 import logoHTML from "../../public/stack/html.svg";
-import logoCSS from "../../public/stack/css.svg";
 import logoJS from "../../public/stack/javascript.svg";
 import logoTS from "../../public/stack/typescript.svg";
-import logoFigma from "../../public/stack/figma.svg";
-import logoReact from "../../public/stack/react.svg";
-import logoRedux from "../../public/stack/redux.svg";
-import logoJest from "../../public/stack/jest.svg";
-import logoSASS from "../../public/stack/sass.svg";
-import logoFirebase from "../../public/stack/firebase.svg";
-import logoNext from "../../public/stack/next.svg";
-import logoTesting from "../../public/stack/testing.svg";
-import tailwindcss from "../../public/stack/tailwindcss.svg";
+import logoDocker from "../../public/stack/docker.svg";
+import logoPython from "../../public/stack/python.svg";
+import logoDJango from "../../public/stack/django.svg";
+import logoAngular from "../../public/stack/angular.svg";
+import logoPostgres from "../../public/stack/postgresql.svg";
+import logoPHP from "../../public/stack/php.svg";
+import logoNgnix from "../../public/stack/nginx.svg";
+import logoSequelize from "../../public/stack/sequelize.svg";
+import logoNodejs from "../../public/stack/node-js.svg";
+import logoMysql from "../../public/stack/mysql.svg";
+import logoLinux from "../../public/stack/linux.svg";
+
 export const Technologies = () => {
   const technologies = [
     { id: "1", name: "HTML", image: logoHTML },
-    { id: "2", name: "CSS", image: logoCSS },
-    { id: "3", name: "JavaScript", image: logoJS },
-    { id: "4", name: "SASS", image: logoSASS },
-    { id: "5", name: "Figma", image: logoFigma },
-    { id: "6", name: "React", image: logoReact },
-    { id: "7", name: "Redux", image: logoRedux },
-    { id: "8", name: "Next", image: logoNext },
-    { id: "9", name: "TypeScript", image: logoTS },
-    { id: "10", name: "Tailwindcss", image: tailwindcss },
-    { id: "11", name: "Jest", image: logoJest },
-    { id: "12", name: "Firebase", image: logoFirebase },
-    { id: "13", name: "Testing", image: logoTesting },
+    { id: "2", name: "JavaScript", image: logoJS },
+    { id: "3", name: "Docker", image: logoDocker },
+    { id: "4", name: "TypeScript", image: logoTS },
+    { id: "5", name: "Python", image: logoPython },
+    { id: "6", name: "Django", image: logoDJango },
+    { id: "7", name: "Angular", image: logoAngular },
+    { id: "8", name: "Postgresql", image: logoPostgres },
+    { id: "9", name: "PHP", image: logoPHP },
+    { id: "10", name: "Nginx", image: logoNgnix },
+    { id: "11", name: "Sequalize", image: logoSequelize },
+    { id: "12", name: "NodeJs", image: logoNodejs },
+    { id: "13", name: "MySQL", image: logoMysql },
+    { id: "14", name: "Linux", image: logoLinux },
   ];
 
   const hiddenTech = (name) => {
     // return false;
-    return ["Jest", "Firebase", "Testing"].includes(name);
+    return ["Python", "Django", "Angular"].includes(name);
   };
 
   return (
