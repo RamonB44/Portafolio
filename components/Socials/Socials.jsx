@@ -7,19 +7,13 @@ export const Socials = () => {
     {
       id: "1",
       name: "linkedin",
-      link: "https://www.linkedin.com/in/davidmariolc",
+      link: "https://www.linkedin.com/in/ramon-b-aguado-apaza/",
       icon: <FaLinkedinIn />,
     },
     {
       id: "2",
-      name: "twitter",
-      link: "https://twitter.com/DavidMarioLC",
-      icon: <FaTwitter />,
-    },
-    {
-      id: "3",
       name: "github",
-      link: "https://github.com/DavidMarioLC",
+      link: "https://github.com/RamonB44/RamonB44",
       icon: <FaGithub />,
     },
   ];

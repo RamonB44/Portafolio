@@ -9,6 +9,7 @@ WORKDIR /usr/src/app/
 COPY ["package.json", "package-lock.json", "./"]
 
 RUN npm install --production
+# replace --production --omit=dev in production
 
 COPY . .
 
