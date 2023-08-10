@@ -5,19 +5,21 @@ import emailjs from "@emailjs/browser";
 import confetti from "canvas-confetti";
 import toast, { Toaster } from "react-hot-toast";
 
+emailjs.init("HiQsQ0ubXOym0G22M");
+
 export const Contact = () => {
   const formRef = useRef(null);
   const [loading, setLoading] = useState(false);
-
+  
   const sendMessage = (event) => {
     event.preventDefault();
     setLoading(true);
+    
     emailjs
       .sendForm(
-        "service_ucujz6s",
-        "template_ryrbc4f",
+        "service_gsxx22n",
+        "template_jemsdvh",
         event.currentTarget,
-        "user_kQ0Ba8o7Mxni8P3euMy85"
       )
       .then(
         (result) => {
