@@ -46,46 +46,46 @@ export async function getStaticProps() {
   return {
     props: {
       projects: [
-        // {
-        //   id: "10",
-        //   name: "Landing Page Ricardo",
-        //   thumbnail: "/projects/landingpageRicardo.webp",
-        //   linkRepo: "https://github.com/DavidMarioLC/LandingPage-Ricardo",
-        //   linkDemo: "https://landing-page-ricardo.vercel.app/",
-        //   description:
-        //     "Roberto es un Developer que le encanta implementar diseños que inspiran y atraen a las personas.",
-        //   technologies: ["React", "Tailwindcss", "Next"],
-        // },
-        // {
-        //   id: "9",
-        //   name: "Healthy Store",
-        //   thumbnail: "/projects/healthstore.webp",
-        //   linkRepo:
-        //     "https://github.com/DavidMarioLC/webApplication-healthy-store",
-        //   linkDemo: "https://web-application-healthy-store.vercel.app",
-        //   description: "Compra todo lo que quieras en esta tiendita saludable.",
-        //   technologies: ["React", "TypeScript", "Next"],
-        // },
-        // {
-        //   id: "8",
-        //   name: "Dashboard Cursos",
-        //   thumbnail: "/projects/dashboard.webp",
-        //   linkRepo: "https://github.com/DavidMarioLC/WebApplication-Dashboard",
-        //   linkDemo: "https://web-application-dashboard.vercel.app/cursos",
-        //   description:
-        //     "Dashboard donde podras eliminar,editar y actualizar tus propios cursos.",
-        //   technologies: ["React", "TypeScript"],
-        // },
-        // {
-        //   id: "7",
-        //   name: "Github Clone",
-        //   thumbnail: "/projects/github.webp",
-        //   linkRepo: "https://github.com/DavidMarioLC/WebApplication-Github",
-        //   linkDemo: "https://web-application-github.vercel.app",
-        //   description:
-        //     "Maneja los repositorios de tus proyectos como todo un profesional.",
-        //   technologies: ["React", "TypeScript"],
-        // },
+        {
+          id: "1",
+          name: "Destajo",
+          thumbnail: "/projects/destajo-main.webp",
+          linkRepo: "https://github.com/RamonB44",
+          linkDemo: "https://destajo-app.ramonb44.dev",
+          description:
+            "Destajo es una aplicación que esta destinada a la contabilizacion de cajas mediante scaneo de codigos QR.",
+          technologies: ["PHP", "Mysql", "Docker", "Laravel"],
+        },
+        {
+          id: "2",
+          name: "Asistencia",
+          thumbnail: "/projects/asistencia-main.webp",
+          linkRepo:
+            "https://github.com/RamonB44",
+          linkDemo: "https://asistencia-app.ramonb44.dev",
+          description: "Asistencia es una aplicación que esta destinada recolectar el horario de ingreso y salida del personal. Ademas, generar reportes e informes gerenciales.",
+          technologies: ["PHP", "Mysql", "Docker", "Laravel"],
+        },
+        {
+          id: "3",
+          name: "Sensores con Arduino",
+          thumbnail: "/projects/arduino.webp",
+          linkRepo: "https://github.com/RamonB44/sensors-ph-preasure-flow-tds",
+          // linkDemo: "#",
+          description:
+            "Obten informacion de tus sensores con Arduino.",
+          technologies: ["Arduino"],
+        },
+        {
+          id: "4",
+          name: "Yolov5 + Fast Camera",
+          thumbnail: "/projects/yolov5mvsdk.webp",
+          linkRepo: "https://github.com/RamonB44/yolov5-realsense/tree/mvsdk-fastcamera",
+          // linkDemo: "#",
+          description:
+            "Conectate a un camara de alta velocidad y con ayuda de la IA captura objetos para su analisis.",
+          technologies: ["Python"],
+        },
         // {
         //   id: "6",
         //   name: "Block Master",

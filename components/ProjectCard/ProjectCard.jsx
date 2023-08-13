@@ -1,33 +1,41 @@
 import Image from "next/image";
 import style from "./ProjectCard.module.css";
 import logoHTML from "../../public/stack/html.svg";
-import logoCSS from "../../public/stack/css.svg";
 import logoJS from "../../public/stack/javascript.svg";
 import logoTS from "../../public/stack/typescript.svg";
-import logoReact from "../../public/stack/react.svg";
-import logoRedux from "../../public/stack/redux.svg";
-import logoJest from "../../public/stack/jest.svg";
-import logoSASS from "../../public/stack/sass.svg";
-import logoFirebase from "../../public/stack/firebase.svg";
-import logoNext from "../../public/stack/next.svg";
-import logoTesting from "../../public/stack/testing.svg";
-import logoTailWindCSS from "../../public/stack/tailwindcss.svg";
+import logoDocker from "../../public/stack/docker.svg";
+import logoPython from "../../public/stack/python.svg";
+import logoDJango from "../../public/stack/django.svg";
+import logoAngular from "../../public/stack/angular.svg";
+import logoPostgres from "../../public/stack/postgresql.svg";
+import logoPHP from "../../public/stack/php.svg";
+import logoNgnix from "../../public/stack/nginx.svg";
+import logoSequelize from "../../public/stack/sequelize.svg";
+import logoNodejs from "../../public/stack/node-js.svg";
+import logoMysql from "../../public/stack/mysql.svg";
+import logoLinux from "../../public/stack/linux.svg";
+import logoArduino from "../../public/stack/arduino.svg";
+import logoLaravel from "../../public/stack/laravel.svg";
 // Tecnologias que use en cada proyecto
 const getIcon = (value) => {
   const tech = {
     HTML: logoHTML,
-    CSS: logoCSS,
     JavaScript: logoJS,
-    Sass: logoSASS,
-    React: logoReact,
-    Redux: logoRedux,
     TypeScript: logoTS,
-    Testing: logoTesting,
-    Firebase: logoFirebase,
-    Jest: logoJest,
-    Next: logoNext,
-    Tailwindcss: logoTailWindCSS,
-  };
+    Docker: logoDocker,
+    Python: logoPython,
+    Django: logoDJango,
+    Angular: logoAngular,
+    Postgres: logoPostgres,
+    PHP: logoPHP,
+    Nginx: logoNgnix,
+    Sequelize: logoSequelize,
+    NodeJs: logoNodejs,
+    Mysql: logoMysql,
+    Linux: logoLinux,
+    Arduino: logoArduino,
+    Laravel: logoLaravel,
+  }
   return tech[value];
 };
 
